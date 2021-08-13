@@ -20,6 +20,7 @@ export default function Carros(props){
                 <p><img src={mcLaren} width='20%'/></p>
                 <li>{props.carrosAttrib[4]}</li>
                 <p><img src={fusca} width='20%'/></p>
+                <li>{props.insereCarros()}</li>
             </ul>
         </div>
     );
