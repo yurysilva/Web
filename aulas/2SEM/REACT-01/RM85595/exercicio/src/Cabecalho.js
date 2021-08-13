@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
-import Carros from './componetes/Carros';
+import Carros from './components/Carros';
 export default function cabecalho(){
 
     return(
