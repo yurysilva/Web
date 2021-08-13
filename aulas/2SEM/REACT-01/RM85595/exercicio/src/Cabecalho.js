@@ -1,6 +1,5 @@
 import React from 'react';
 import logo from './logo.svg';
-import Carros from './components/Carros';
 export default function cabecalho(){
 
     return(
@@ -11,7 +10,6 @@ export default function cabecalho(){
                 Primeira parte do exercício
                 <p>implementando o paragrafo</p>
             </h1>
-            <Carros/>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
