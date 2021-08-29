@@ -6,10 +6,20 @@ import mcLaren from '../img/mclaren.jpg'
 import fusca from '../img/fusca.jpg'
 export default function Carros(props){
 
+
+    //Utilizando map
+    const lista = props.carrosAttrib.map(
+        (c)=>
+        <li>{c}</li>
+
+    )
     return(
         <div>
+            <h2>Lista de carros:<span>{props.carrosAttribTitulo}</span></h2>
             <ul>
-                <h2>Lista de carros:<span>{props.carrosAttribTitulo}</span></h2>
+
+                {lista}
+                {/*
                 <li>{props.carrosAttrib[0]}</li>
                 <p><img src={camaro} width='20%'/></p>
                 <li>{props.carrosAttrib[1]}</li>
@@ -21,6 +31,7 @@ export default function Carros(props){
                 <li>{props.carrosAttrib[4]}</li>
                 <p><img src={fusca} width='20%'/></p>
                 <li>{props.insereCarros()}</li>
+                */}
             </ul>
         </div>
     );
