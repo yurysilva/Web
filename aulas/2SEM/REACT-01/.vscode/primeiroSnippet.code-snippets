@@ -37,7 +37,7 @@
         "description": "HTML 5 BR"
     },
     "Iniciar o corpo da função do React": {
-        "scope": "javascript",
+        "scope": "funcReact",
         "prefix": "r1",
         "body": [
             "import React from 'react'",
