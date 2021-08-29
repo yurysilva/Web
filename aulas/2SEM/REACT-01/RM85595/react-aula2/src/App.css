@@ -10,4 +10,11 @@ body{
     color: #000;
     margin-left: 20%;
     margin-right: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+.font-s{
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
 }
