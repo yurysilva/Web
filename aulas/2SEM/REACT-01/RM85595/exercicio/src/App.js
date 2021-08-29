@@ -13,6 +13,8 @@ export default function App() {
 
   //passando uma função com atrinuto
   const maisCarros = ()=> 'Gol'
+
+  const multiplica = (nr1, nr2) => nr1 * nr2
   return (
     
 
@@ -20,7 +22,7 @@ export default function App() {
       <Cabecalho/>
       <Carros carrosAttrib={listaCarros}
       carrosAttribTitulo={listaSonho} insereCarros={maisCarros}/>
-      <Parceiros/>
+      <Parceiros calculo={multiplica}/>
     </>
   );
 }
