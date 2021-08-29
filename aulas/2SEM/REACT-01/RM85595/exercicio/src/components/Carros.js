@@ -9,12 +9,21 @@ export default function Carros(props){
 
     //Utilizando map
     const lista = props.carrosAttrib.map(
-        (c)=>
-        <li>{c}</li>
+        (c,i)=>
+        <li key={i}>{i} - {c}</li>
 
     )
     return(
         <div>
+                <img src={camaro} width='20%'/>
+
+                <img src={audi} width='20%'/>
+
+                <img src={poscher} width='20%'/>
+
+                <img src={mcLaren} width='20%'/>
+
+                <img src={fusca} width='20%'/>
             <h2>Lista de carros:<span>{props.carrosAttribTitulo}</span></h2>
             <ul>
 
