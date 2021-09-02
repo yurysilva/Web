@@ -7,12 +7,8 @@ export default function Corpo() {
         <section>
             <h2>Aprendendo REACT!?</h2>
             <img src={imgLogoReact} alt="Logo React" />
-            <div>
-                <p>React é bom porque!?</p>
-                <p>FAST!</p>
-                <p>BEST!</p>
-                <p>EASY!</p>
-            </div>
+            <h2>Exemplos de [USE-STATE]</h2>
+            <h3>yury</h3>
         </section>
     )
 }
