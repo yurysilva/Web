@@ -10,6 +10,8 @@ export default function Header(props) {
                 <ul style={{ backgroundColor: horas > 7 ? props.corAttrib: '#0000ff'}}>
                     <li><a href="#">Sobre</a></li>
                     <li><a href="#">Serviço</a></li>
+                    {props.children[0]}
+                    {props.children[0]}
                 </ul>
             </nav>
         </header>
